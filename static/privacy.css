@@ -1,0 +1,97 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    color: #2a4d6d;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #2a4d6d;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+}
+
+/* Home Button */
+.home-button {
+    display: inline-block;
+    margin-top: 15px;
+    background-color: #4322e9;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.home-button:hover {
+    background-color: #191392;
+}
+
+/* Content Section */
+.content {
+    background-color: white;
+    padding: 40px 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.content h2 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.content p {
+    margin-bottom: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #2a4d6d;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+/* Align Home Button to Left-Center of Paragraph */
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.home-button {
+    align-self: flex-start; /* Align the Home button to the left */
+    margin-top: 20px; /* Optional, for spacing between button and title */
+}

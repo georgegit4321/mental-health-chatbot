@@ -1,0 +1,101 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #4b6cb7, #182848);
+    color: #fff;
+    text-align: center;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.search-icon {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Chatbot Container */
+.chatbot-container {
+    position: relative;
+    text-align: center;
+}
+
+.chat-bubble {
+    background: white;
+    color: #333;
+    padding: 15px 20px;
+    border-radius: 20px;
+    font-size: 18px;
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.chatbot img {
+    width: 250px;
+    border-radius: 50%;
+}
+
+/* Chat Button */
+.start-chat {
+    display: inline-block;
+    background: #007bff;
+    color: white;
+    padding: 15px 25px;
+    font-size: 18px;
+    border-radius: 30px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: 0.3s ease;
+}
+
+.start-chat:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}

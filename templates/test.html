@@ -1,0 +1,47 @@
+<!-- home.html 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - AI Mental Health Chatbot</title>
+    <link rel="stylesheet" href="/static/homestyle.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>AI Mental Health Chatbot</h1>
+            <p>Your well-being matters. Let’s track how you feel today.</p>
+        </header>
+        
+        <div class="mood-tracker">
+            <h2>How are you feeling today?</h2>
+            <div class="emoji-container">
+                <button class="emoji" data-mood="happy">😊</button>
+                <button class="emoji" data-mood="neutral">😐</button>
+                <button class="emoji" data-mood="sad">😢</button>
+                <button class="emoji" data-mood="stressed">😖</button>
+            </div>
+            <input type="text" id="moodInput" placeholder="Describe how you feel...">
+            <button id="submitMood">Submit</button>
+        </div>
+        
+        <div class="content">
+            <p>Click below to start chatting with our AI-powered mental health assistant.</p>
+            <a href="index.html" class="chat-button">Start Chat</a>
+        </div>
+        
+        <footer>
+            <p>Here for you, anytime you need support.</p>
+        </footer>
+    </div>
+    <script>
+        document.querySelectorAll('.emoji').forEach(button => {
+            button.addEventListener('click', function() {
+                document.getElementById('moodInput').value = this.getAttribute('data-mood');
+            });
+        });
+    </script>
+</body>
+</html> 
+-->
